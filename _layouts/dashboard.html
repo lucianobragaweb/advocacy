@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	{% include head_scripts.html %}
+</head>
+
+<body>
+
+	<div class="wrapper">
+        {% include sidebar.html %}
+	    <div class="main-panel">
+			{% include menu_topo.html %}
+			<div class="content">
+				<div class="container-fluid">
+					{{ content }}
+				</div>
+			</div>
+			{% include footer.html %}
+		</div>
+	</div>
+
+</body>
+	{% include footer_scripts.html %}
+
+	{% if page.custom_css %}
+        {% for stylesheet in page.custom_css %}
+            <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
+        {% endfor %}
+    {% endif %}
+
+    {% if page.custom_js %}
+        {% for js_file in page.custom_js %}
+            <script src='{{ js_file }}' type="text/javascript"></script>
+        {% endfor %}
+    {% endif %}
+</html>

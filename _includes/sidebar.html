@@ -1,0 +1,78 @@
+<div class="sidebar" data-color="purple" data-image="assets/img/sidebar-1.jpg">
+    <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+
+    <div class="logo">
+        <a href="/" class="simple-text">
+            Advocacia Online
+        </a>
+    </div>
+
+    <div class="sidebar-wrapper">
+        <ul class="nav">
+            <li {% if page.url == "/" %}class="active"{% endif %}>
+                <a href="/">
+                    <i class="material-icons">dashboard</i>
+                    <p>Painel</p>
+                </a>
+            </li>
+            <li {% if page.url == "/processos.html" %}class="active"{% endif %}>
+                <a href="processos.html">
+                    <i class="material-icons">library_books</i>
+                    <p>Processos</p>
+                </a>
+            </li>
+            <li {% if page.url == "/clientes.html" %}class="active"{% endif %}>
+                <a href="clientes.html">
+                    <i class="material-icons">person</i>
+                    <p>Clientes</p>
+                </a>
+            </li>
+            <li {% if page.url == "/equipe.html" %}class="active"{% endif %}>
+                <a href="equipe.html">
+                    <i class="material-icons">bubble_chart</i>
+                    <p>Minha Equipe</p>
+                </a>
+            </li>
+            <li {% if page.url == "/compromissos.html" %}class="active"{% endif %}>
+                <a href="compromissos.html">
+                    <i class="material-icons text-gray">notifications</i>
+                    <p>Compromissos</p>
+                </a>
+            </li>
+            <li {% if page.url == "/financeiro.html" %}class="active"{% endif %}>
+                <a href="financeiro.html">
+                    <i class="material-icons">attach_money</i>
+                    <p>Financeiro</p>
+                </a>
+            </li>	                
+            <li>
+                <a href="#">
+                    <i class="material-icons">content_paste</i>
+                    <p>Relatórios</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons">public</i>
+                    <p>Meu Site</p>
+                </a>
+            </li>
+            <!-- <li class="active-pro">
+                <a href="#">
+                    <i class="material-icons">ondemand_video</i>
+                    <p>Treinamento e Suporte</p>
+                </a>
+            </li> -->
+            <li>
+                <a href="#">
+                    <i class="material-icons">ondemand_video</i>
+                    <p>Treinamento e Suporte</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

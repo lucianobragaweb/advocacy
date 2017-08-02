@@ -1,0 +1,37 @@
+---
+layout: dashboard
+---
+<div class="row">
+    <div class="col-md-6">
+        {% include componentes/graficos/financeiro.html %}
+    </div>
+    <div class="col-md-6">
+        <div class="card card-stats">
+            <div class="card-header" data-background-color="blue">
+                <i class="material-icons">attach_money</i>
+            </div>
+            <div class="card-content">
+                <p class="category">Saldo Financeiro</p>
+                <h3 class="title">R$ 14.580,45</h3>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-info"> Gerenciar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        {% include componentes/cards/financeiro/receitas.html %}
+    </div>
+    <div class="col-md-3">
+        {% include componentes/cards/financeiro/despesas.html %}
+    </div>
+</div>
+<!-- 
+<div class="row">
+    <div class="col-md-12">
+        {% include componentes/equipe_lista.html %}  
+    </div>
+</div> -->

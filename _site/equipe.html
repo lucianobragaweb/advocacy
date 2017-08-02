@@ -44,7 +44,7 @@
 
     <div class="sidebar-wrapper">
         <ul class="nav">
-            <li class="active">
+            <li >
                 <a href="/">
                     <i class="material-icons">dashboard</i>
                     <p>Painel</p>
@@ -62,7 +62,7 @@
                     <p>Clientes</p>
                 </a>
             </li>
-            <li >
+            <li class="active">
                 <a href="equipe.html">
                     <i class="material-icons">bubble_chart</i>
                     <p>Minha Equipe</p>
@@ -164,7 +164,7 @@
 </nav>
 			<div class="content">
 				<div class="container-fluid">
-					<div class="row">
+					<!-- <div class="row">
     <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="card card-stats">
     <div class="card-header" data-background-color="orange">
@@ -222,310 +222,18 @@
     </div>
 </div>
     </div>
-</div>
-
-<!-- Gráficos  -->
-<div class="row">
-    <div class="col-md-4">
-        <div class="card">
-    <div class="card-header card-chart" data-background-color="blue">
-        <div class="ct-chart" id="dailySalesChart"></div>
-    </div>
-    <div class="card-content">
-        <h4 class="title">Gráfico Financeiro</h4>
-        <p class="category"><span class="text-success"><i class="fa fa-long-arrow-up"></i> 55%  </span> de aumento nas receitas</p>
-    </div>
-    <div class="card-footer">
-        <div class="stats">
-            <i class="material-icons">access_time</i> atualizado há 4 minutos atrás
-        </div>
-    </div>
-</div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="card">
-    <div class="card-header card-chart" data-background-color="orange">
-        <div class="ct-chart" id="emailsSubscriptionChart"></div>
-    </div>
-    <div class="card-content">
-        <h4 class="title">Processos</h4>
-        <p class="category">Estatísticas de Processos por mês</p>
-    </div>
-    <div class="card-footer">
-        <div class="stats">
-            <i class="material-icons">access_time</i> atualizado há 4 minutos atrás
-        </div>
-    </div>
-</div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="card">
-    <div class="card-header card-chart" data-background-color="red">
-        <div class="ct-chart" id="completedTasksChart"></div>
-    </div>
-    <div class="card-content">
-        <h4 class="title">Tarefas</h4>
-        <p class="category">Estatísticas de Tarefas completadas</p>
-    </div>
-    <div class="card-footer">
-        <div class="stats">
-            <i class="material-icons">access_time</i> atualizado há 4 minutos atrás
-        </div>
-    </div>
-</div>
-    </div>
-</div><!-- // Gráficos  -->
+</div> -->
 
 <div class="row">
-    <div class="col-lg-6 col-md-12">
-        <div class="card card-nav-tabs">
-    <div class="card-header" data-background-color="red">
-        <div class="nav-tabs-navigation">
-            <div class="nav-tabs-wrapper">
-                <span class="nav-tabs-title">Tarefas:</span>
-                <ul class="nav nav-tabs" data-tabs="tabs">
-                    <li class="active">
-                        <a href="#profile" data-toggle="tab">
-                            <i class="material-icons">domain</i>
-                            Internas
-                        <div class="ripple-container"></div></a>
-                    </li>
-                    <li class="">
-                        <a href="#messages" data-toggle="tab">
-                            <i class="material-icons">nature_people</i>
-                            Externas
-                        <div class="ripple-container"></div></a>
-                    </li>
-                    <li class="">
-                        <a href="#settings" data-toggle="tab">
-                            <i class="material-icons">info_outline</i>
-                            Compromi...
-                        <div class="ripple-container"></div></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="card-content">
-        <div class="tab-content">
-            <div class="tab-pane active" id="profile">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes" checked>
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Imprimir cópia do processo 12345</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Xerox de documentos referentes ao cliente Francisco Silva Chaves</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes" checked>
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Xerox de documentos referentes ao cliente Francisco Silva Chaves</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Marcar reunião com cliente João Batista e todos os advogados do escritório
-                            </td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes" checked>
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Enviar emails para todos os clientes com mensagem de feliz natal</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="tab-pane" id="messages">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes" checked>
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Autenticar documentos referentes ao processo 3210
-                            </td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Contato com o Cliente João da Silva</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="tab-pane" id="settings">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Audiência no Forum de Cariré</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes" checked>
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Reunião com todos os Funcionários
-                            </td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                    </label>
-                                </div>
-                            </td>
-                            <td>Reunião com Promotora no Furum de Groaíras</td>
-                            <td class="td-actions text-right">
-                                <button type="button" rel="tooltip" title="Editar Tarefa" class="btn btn-primary btn-simple btn-xs">
-                                    <i class="material-icons">edit</i>
-                                </button>
-                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                    <i class="material-icons">close</i>
-                                </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
-
-    <div class="col-lg-6 col-md-12">
-            <div class="card">
-    <div class="card-header" data-background-color="orange">
-        <h4 class="title">Acompanhamento de Processos</h4>
-        <p class="category">Acompanhe os Últimos processos cadastrados</p>
+    <div class="col-md-12">
+        <div class="card">
+    <div class="card-header" data-background-color="blue">
+        <h4 class="title">Minha Equipe</h4>
+        <p class="category">Advogados e Funcionários</p>
     </div>
     <div class="card-content table-responsive">
         <table class="table table-hover">
-            <thead class="text-warning">
+            <thead class="text-info">
                 <th>Processo</th>
                 <th>Cliente</th>
                 <th>Natureza</th>
